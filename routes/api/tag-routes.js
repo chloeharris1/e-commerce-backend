@@ -49,7 +49,25 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  // TODO: update a tag's name by its `id` value
+  // update a tag's name by its `id` value
+  ProductTag.update(
+    {
+      id: req.body.id,
+      prduct_id: req.body.product_id,
+      tag_id: req.body.tag_id,
+    },
+    {
+      // Gets the product tag based on the id given in the request parameters
+      where: {
+        id: req.params.id,
+      },
+    }
+  )
+    .then((updatedProductTag) => {
+      // Sends the updated product tag as a json response
+      res.json(updatedProductTag);
+    })
+    .catch((err) => res.json(err));
 
 });
 
