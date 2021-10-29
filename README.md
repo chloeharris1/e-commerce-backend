@@ -54,6 +54,12 @@ npm run seed
 ```
 npm start
 ```
+## Screenshots
+![productsPNG](https://user-images.githubusercontent.com/89039793/139467182-0a52d7c7-1d05-46a7-ae59-485e97b95157.PNG)
+
+![catbyid](https://user-images.githubusercontent.com/89039793/139467264-b885df3b-65c2-4d3b-bc52-19c4c0419b32.PNG)
+
+![createtag](https://user-images.githubusercontent.com/89039793/139467325-1643aff0-96e2-47fc-ab90-4d19e4e72284.PNG)
 
 ## Link
 
