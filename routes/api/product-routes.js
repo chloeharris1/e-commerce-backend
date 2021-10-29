@@ -24,15 +24,6 @@ router.get('/', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-  // try {
-  //   const productData = await Product.findAll({
-  //     // be sure to include its associated Category and Tag data
-  //     include: [{ model: Category }] [{ model: Tag }],
-  //   });
-  //   res.status(200).json(productData);
-  // } catch (err) {
-  //   res.status(500).json(err);
-  // }
 });
 
 // TODO: get one product

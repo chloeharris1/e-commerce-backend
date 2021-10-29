@@ -19,16 +19,6 @@ router.get('/', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-
-  // try {
-  //   const tagData = await Tag.findAll({
-
-  //     include: [{ model: Product }],
-  //   });
-  //   res.status(200).json(tagData);
-  // } catch (err) {
-  //   res.status(500).json(err);
-  // }
 });
 
 router.get('/:id', (req, res) => {
@@ -48,22 +38,6 @@ router.get('/:id', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-
-  // try {
-  //   const tagData = await Tag.findByPk(req.params.id, {
-
-  //     include: [{ model: Product }],
-  //   });
-
-  //   if (!tagData) {
-  //     res.status(404).json({ message: 'No tag found with that id!' });
-  //     return;
-  //   }
-
-  //   res.status(200).json(tagData);
-  // } catch (err) {
-  //   res.status(500).json(err);
-  // }
 });
 
 router.post('/', (req, res) => {
@@ -116,23 +90,6 @@ router.delete('/:id', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-
-  // try {
-  //   const tagData = await Tag.destroy({
-  //     where: {
-  //       id: req.params.id,
-  //     },
-  //   });
-
-  //   if (!tagData) {
-  //     res.status(404).json({ message: 'No tag found with that id!' });
-  //     return;
-  //   }
-
-  //   res.status(200).json(tagData);
-  // } catch (err) {
-  //   res.status(500).json(err);
-  // }
 });
 
 module.exports = router;

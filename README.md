@@ -10,7 +10,6 @@
 - [Questions](#questions)
 
 <br />
-<br />
 
 ## Description
 Back end for an e-commerce site using Express.js and Sequelize to interact with a MySQL database.
@@ -43,9 +42,12 @@ npm install dotenv
 ## Usage
 When you want to run the application, type the below into your terminal command line:
 ```
-mysql -u root -p 
+mysql -u root -p
+(Enter password) 
 ```
-(Enter password)
+```
+source db/schema.sql
+```
 ```
 npm run seed
 ```
