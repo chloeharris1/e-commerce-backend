@@ -5,8 +5,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demo](#demo)
-- [Screenshot](#screenshot)
+- [Link](#link)
 - [Questions](#questions)
 
 <br />
@@ -55,12 +54,11 @@ npm run seed
 npm start
 ```
 
-## Deployed Application
+## Link
 
-The following video shows an example of the application being used from the command line:
+Link to deployed application:
 
-## Screenshot
-
+https://vast-lake-74700.herokuapp.com/
 
 ## Questions
 
